@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2905317A1F65B294004EB73B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290531791F65B294004EB73B /* Player.swift */; };
+		2905317C1F65B823004EB73B /* UIButtonEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905317B1F65B823004EB73B /* UIButtonEXT.swift */; };
 		29675AB01F6535FB00DE62C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29675AAF1F6535FB00DE62C4 /* AppDelegate.swift */; };
 		29675AB21F6535FB00DE62C4 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29675AB11F6535FB00DE62C4 /* WelcomeVC.swift */; };
 		29675AB51F6535FB00DE62C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29675AB31F6535FB00DE62C4 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		290531791F65B294004EB73B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2905317B1F65B823004EB73B /* UIButtonEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonEXT.swift; sourceTree = "<group>"; };
 		29675AAC1F6535FB00DE62C4 /* swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29675AAF1F6535FB00DE62C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29675AB11F6535FB00DE62C4 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -60,9 +64,9 @@
 		29675AAE1F6535FB00DE62C4 /* swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				29675AC61F6592C200DE62C4 /* Controller */,
 				29675AC51F6592B200DE62C4 /* Model */,
 				29675AC21F653D2D00DE62C4 /* Views */,
+				29675AC61F6592C200DE62C4 /* Controller */,
 				29675AAF1F6535FB00DE62C4 /* AppDelegate.swift */,
 				29675AB31F6535FB00DE62C4 /* Main.storyboard */,
 				29675AB61F6535FB00DE62C4 /* Assets.xcassets */,
@@ -83,6 +87,8 @@
 		29675AC51F6592B200DE62C4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				290531791F65B294004EB73B /* Player.swift */,
+				2905317B1F65B823004EB73B /* UIButtonEXT.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +179,8 @@
 				29675AC81F6592E300DE62C4 /* LeagueVC.swift in Sources */,
 				29675AB01F6535FB00DE62C4 /* AppDelegate.swift in Sources */,
 				29675ACA1F6592F200DE62C4 /* SkillVC.swift in Sources */,
+				2905317A1F65B294004EB73B /* Player.swift in Sources */,
+				2905317C1F65B823004EB73B /* UIButtonEXT.swift in Sources */,
 				29675AC41F6541E600DE62C4 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
