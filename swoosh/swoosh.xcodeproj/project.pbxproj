@@ -64,7 +64,6 @@
 				29675AC51F6592B200DE62C4 /* Model */,
 				29675AC21F653D2D00DE62C4 /* Views */,
 				29675AAF1F6535FB00DE62C4 /* AppDelegate.swift */,
-				29675AB11F6535FB00DE62C4 /* WelcomeVC.swift */,
 				29675AB31F6535FB00DE62C4 /* Main.storyboard */,
 				29675AB61F6535FB00DE62C4 /* Assets.xcassets */,
 				29675AB81F6535FB00DE62C4 /* LaunchScreen.storyboard */,
@@ -92,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				29675AC71F6592E300DE62C4 /* LeagueVC.swift */,
+				29675AB11F6535FB00DE62C4 /* WelcomeVC.swift */,
 				29675AC91F6592F200DE62C4 /* SkillVC.swift */,
 			);
 			path = Controller;
