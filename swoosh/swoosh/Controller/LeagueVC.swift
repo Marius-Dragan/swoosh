@@ -11,13 +11,17 @@ import UIKit
 class LeagueVC: UIViewController {
     
     var player: Player!
+   
 // create ioboutlets for all other buttons so we can make cool new animations to it.
+    @IBOutlet weak var mensBtn: BorderButton!
+    @IBOutlet weak var womensBtn: BorderButton!
+    @IBOutlet weak var coedBtn: BorderButton!
     @IBOutlet weak var nextBtn: BorderButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       player = Player()
+        player = Player()
     }
 
     @IBAction func onNextTapped(_ sender: Any) {
@@ -26,31 +30,30 @@ class LeagueVC: UIViewController {
     
     @IBAction func onMensTapped(_ sender: Any) {
      selectLeague(leagueType: "mens")
+        mensBtn.dim()
     }
 
     @IBAction func onWomensTapped(_ sender: Any) {
         selectLeague(leagueType: "womens")
+        womensBtn.dim()
     }
     
     @IBAction func onCoedTapped(_ sender: Any) {
         selectLeague(leagueType: "coed")
+        coedBtn.dim()
     }
     
     func selectLeague(leagueType: String) {
         player.desiredLeague = leagueType
         nextBtn.isEnabled = true
+      
     }
     
     
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if let skillVC = segue.destination as? SkillVC {
+            skillVC.player = player
+        }
     }
-    */
 
 }
