@@ -11,7 +11,7 @@ import UIKit
 class LeagueVC: UIViewController {
     
     var player: Player!
-
+// create ioboutlets for all other buttons so we can make cool new animations to it.
     @IBOutlet weak var nextBtn: BorderButton!
     
     override func viewDidLoad() {
@@ -26,7 +26,6 @@ class LeagueVC: UIViewController {
     
     @IBAction func onMensTapped(_ sender: Any) {
      selectLeague(leagueType: "mens")
-        nextBtn.dim()
     }
 
     @IBAction func onWomensTapped(_ sender: Any) {
