@@ -15,12 +15,9 @@ class WelcomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
     }
-    @IBAction func unwindFromTheSkillVC(unwindSegue: UIStoryboardSegue) {
+    @IBAction func unwindFromTheSportsVC(unwindSegue: UIStoryboardSegue) {
     }
-        
 }
 
 

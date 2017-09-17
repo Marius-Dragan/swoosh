@@ -14,6 +14,7 @@ class SearchVC: UIViewController {
 
     @IBOutlet weak var desiredLeagueLbl: UILabel!
     @IBOutlet weak var desiredSkillLbl: UILabel!
+    @IBOutlet weak var desiredSportsLbl: UILabel!
     
 
     
@@ -23,7 +24,7 @@ class SearchVC: UIViewController {
         print(player.selectedSkillLevel)
         desiredLeagueLbl.text = player.desiredLeague.uppercased()
         desiredSkillLbl.text = player.selectedSkillLevel.uppercased()
-        
+        desiredSportsLbl.text = player.desiredSport.uppercased()
     }
 
     override func didReceiveMemoryWarning() {
