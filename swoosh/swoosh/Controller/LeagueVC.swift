@@ -24,6 +24,8 @@ class LeagueVC: UIViewController {
         print(player.desiredSport)
         
     }
+    @IBAction func unwindFromTheSkillVC(unwindSegue: UIStoryboardSegue) {
+    }
 
     @IBAction func onNextTapped(_ sender: Any) {
             performSegue(withIdentifier: "SkillVCSegue", sender: self)

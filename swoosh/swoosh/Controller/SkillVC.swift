@@ -19,7 +19,8 @@ class SkillVC: UIViewController {
 
         print(player.desiredLeague)
     }
-    
+    @IBAction func unwindFromTheSearchVC(unwindSegue: UIStoryboardSegue) {
+    }
     
     @IBAction func onFinishTapped(_ sender: Any) {
         performSegue(withIdentifier: "SearchVCSegue", sender: self)
